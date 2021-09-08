@@ -70,4 +70,15 @@ p {
   color: #000;
   border-bottom-color: #000;
 }
+
+/*
+ * Footer
+*/
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer .copyright-link {
+  font-size: 0.8rem;
 }
