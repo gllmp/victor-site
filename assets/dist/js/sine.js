@@ -9,6 +9,12 @@ let dotSize = 5;
 let maxHeight = 200;
 
 function setup() {
+  if (windowWidth < 600) {
+    maxHeight = 100;
+    period = 250.0;
+    amplitude = 40.0;
+  }
+
   let canvas = createCanvas(windowWidth, maxHeight);
   canvas.parent("#animation-container");
   w = width + xspacing;

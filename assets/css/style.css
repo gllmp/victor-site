@@ -194,7 +194,17 @@ footer .copyright-link {
   }
 
   #home #animation-container {
+	margin-top: 2rem;
     margin-bottom: 0rem;
+  }
+
+  #home canvas {
+	width: 95vw !important;
+	max-height: 100px;
+  }
+
+  #home main h1 {
+	  margin-top: 2rem;
   }
 }
 
