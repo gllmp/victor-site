@@ -129,24 +129,43 @@ main {
 	flex-direction: column;
 }
 
+/*
+ * Animation
+*/
 canvas {
 	width: 100vw !important;
 	height: auto !important;
 	max-height: 200px;
 }
 
-
-/*
- * Animation
-*/
-
 #animation-container {
 	width: fit-content;
 	align-self: center;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 	transform: rotate(-10deg);
 }
 
+/*
+ * About
+*/
+
+#about main {
+  text-align: left;
+}
+
+#about main h1 {
+  border-bottom: 1px;
+  border-bottom-style: groove;
+  padding-bottom: 1rem;
+}
+
+#about .container {
+  padding: 0;
+}
+
+#about .container p {
+  margin-top: 2rem;
+}
 
 /*
  * Footer
