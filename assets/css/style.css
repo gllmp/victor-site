@@ -58,7 +58,7 @@ header {
 	/* display: flex;
   flex-direction: column;
   justify-content: left; */
-	margin-bottom: 6rem;
+	margin-bottom: 4rem;
 }
 
 .header-nav {
@@ -189,11 +189,11 @@ footer .copyright-link {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  header {
+  #home header {
     margin-bottom: 0rem;
   }
 
-  #animation-container {
+  #home #animation-container {
     margin-bottom: 0rem;
   }
 }
