@@ -41,6 +41,7 @@ header {
   /* display: flex;
   flex-direction: column;
   justify-content: left; */
+  margin-bottom: 6rem;
 }
 
 .header-nav {
@@ -102,6 +103,31 @@ hr {
   /* background-position: bottom; */
   /* background-size: 10px 1px; */
   /* background-repeat: repeat-x; */
+}
+
+/*
+ * Main
+*/
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+canvas {
+  width: 100vw !important;
+  height: auto !important;
+  max-height: 200px;
+}
+
+/*
+ * Animation
+*/
+
+#animation-container {
+  width: fit-content;
+  align-self: center;
+  margin-bottom: 4rem;
+  transform: rotate(-10deg);
 }
 
 /*
