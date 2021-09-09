@@ -187,9 +187,41 @@ footer .copyright-link {
  * Media Queries
 */
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header {
+    margin-bottom: 0rem;
+  }
+
+  #animation-container {
+    margin-bottom: 0rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	/* For desktop: */
 	.header-nav {
 		text-align: start;
 	}
+
+  .nav-title h4 {
+    text-align: left;
+    margin-left: 0.2em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
