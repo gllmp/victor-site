@@ -171,6 +171,36 @@ canvas {
 }
 
 /*
+ * Downloads
+*/
+
+#downloads main {
+	text-align: left;
+  }
+  
+#downloads main h1 {
+border-bottom: 1px;
+border-bottom-style: groove;
+padding-bottom: 1rem;
+}
+
+#downloads .container {
+padding: 0;
+}
+
+#downloads .container p {
+margin-top: 0.5rem;
+}
+
+#downloads .download-content {
+	margin-top: 2rem;
+}
+
+#downloads .download-image {
+	margin-top: 1rem;
+}
+
+/*
  * Footer
 */
 
@@ -220,10 +250,10 @@ footer .copyright-link {
 		text-align: start;
 	}
 
-  .nav-title h4 {
-    text-align: left;
-    margin-left: 0.2em;
-  }
+	.nav-title h4 {
+	text-align: left;
+	margin-left: 0.2em;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
