@@ -46,6 +46,9 @@ p {
 	margin-bottom: 0.5rem;
 }
 
+a {
+  text-decoration: none;
+}
 
 /*
  * Header
