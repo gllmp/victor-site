@@ -184,6 +184,10 @@ canvas {
 	padding-bottom: 1rem;
 }
 
+#projects main h2 {
+	text-decoration: underline;
+}
+
 #projects .container {
 	padding: 0;
 }
@@ -276,11 +280,15 @@ canvas {
   }
   
 #downloads main h1 {
-border-bottom: 1px;
-border-bottom-style: groove;
-padding-bottom: 1rem;
+	border-bottom: 1px;
+	border-bottom-style: groove;
+	padding-bottom: 1rem;
 }
 
+#downloads main h2 {
+	text-decoration: underline;
+}
+	
 #downloads .container {
 padding: 0;
 }
