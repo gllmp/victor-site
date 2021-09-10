@@ -319,6 +319,7 @@ footer .copyright-link {
   #home #animation-container {
 	margin-top: 2rem;
     margin-bottom: 0rem;
+	transform: rotate(340deg);
   }
 
   #home canvas {
