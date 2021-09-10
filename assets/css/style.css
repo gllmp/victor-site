@@ -272,6 +272,39 @@ footer .copyright-link {
 	font-size: 0.8rem;
 }
 
+.sns-icons {
+	margin-top: 2rem;
+}
+
+.sns-icons ul {
+	justify-content: center;
+}
+
+.sns-icons ul li {
+	font-size: 1.5em;
+}
+
+.sns-icons .nav-link {
+    color: rgba(0, 0, 0, 1.0);
+}
+
+.sns-icons .nav-link:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sns-icons .nav-link img {
+    opacity: 1.0;
+	transition: all .15s ease-in-out;
+}
+
+.sns-icons .nav-link img:hover {
+    opacity: 0.5;
+}
+
+.sns-icons .icon-image {
+	width: 30px;
+    padding-bottom: 0.4rem;
+}
 
 /*
  * Media Queries
@@ -295,6 +328,10 @@ footer .copyright-link {
 
   #home main h1 {
 	  margin-top: 2rem;
+  }
+  
+  #home footer {
+	  margin-top: 1.5rem!important;
   }
 }
 
